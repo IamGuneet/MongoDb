@@ -1,0 +1,77 @@
+[{
+  "_id": {
+    "$oid": "631efec3d4a26d85e8ab3dbc"
+  },
+  "title": "The way of world",
+  "pages": 450,
+  "genres": [
+    "self help"
+  ],
+  "reviews": [
+    {
+      "name": "luffy",
+      "body": "i ll be the pirate king"
+    },
+    {
+      "name": "zoro",
+      "body": "where s the booze"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6320acc5d4a26d85e8ab3dbd"
+  },
+  "title": "The way of world",
+  "pages": 450,
+  "genres": [
+    "self help"
+  ],
+  "reviews": [
+    {
+      "name": "luffy",
+      "body": "i ll be the pirate king"
+    },
+    {
+      "name": "zoro",
+      "body": "where s the booze"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6320acc6d4a26d85e8ab3dbe"
+  },
+  "title": "The way of world",
+  "pages": 450,
+  "genres": [
+    "self help"
+  ],
+  "reviews": [
+    {
+      "name": "luffy",
+      "body": "i ll be the pirate king"
+    },
+    {
+      "name": "zoro",
+      "body": "where s the booze"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6320acc8d4a26d85e8ab3dbf"
+  },
+  "title": "The way of world",
+  "pages": 450,
+  "genres": [
+    "self help"
+  ],
+  "reviews": [
+    {
+      "name": "luffy",
+      "body": "i ll be the pirate king"
+    },
+    {
+      "name": "zoro",
+      "body": "where s the booze"
+    }
+  ]
+}]
