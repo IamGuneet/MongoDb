@@ -2,7 +2,7 @@
 const { application } = require('express');
 const express = require('express');
 const app = express();
-
+const Article = require('./models/article')
 const mongoose = require('mongoose'); 
 
 //connection string
@@ -14,18 +14,8 @@ const articleRouter = require('./routes/articles')
 app.set('view engine','ejs')
 app.use(express.urlencoded({extended:false}))
 
-app.get('/',(req,res)=>{
-    const articles =[{
-        title:"Test 1",
-        date: new Date(),
-        description: "test description"
-    },
-    {
-        title:"Test 2",
-        date: new Date(),
-        description: "test description"
-    }
-]
+app.get('/',async (req,res)=>{
+const articles = await Article.find().sort({date:"descending"})
 
 res.render("articles/index",{articles:articles})
 })
